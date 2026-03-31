@@ -44,6 +44,10 @@ input {
     line-height: 1.5rem;
 }
 
+#hint {
+    font-size: 1rem;
+}
+
 footer {
     width: 100%;
     flex-basis: 10%;
