@@ -12,13 +12,16 @@ A simple browser-based word guesser tool that helps users solve words using hint
 ## Demo Examples
 
 Here is an example of typing in a part of the "Leaking Roof" word using '.' characters as a wildcard guess.
+
 ![Example 1 of Guess The Build Solver](example1.png)
 
 Here is an example of typing in "..o." which is a 4 character word with only one known character. The program matches words from the list that have the letter 'o' in the same position and return it as a potential solution.
+
 ![Example 2 of Guess The Build Solver](example2.png)
 
 Here is a link to try out, it is not case-sensitive and still returns the same matches if either lowrcase or uppercase characters were entered. The wildcard characters in this program are considered to be non-letter characters, for example '.', ',', '?'. Additionally, the program accepts numbers as a shortcut to avoid typing in too many wildcard characters. For example, typing in "3a" treats the character '3' as a wildcard multiplied by 3, so it searches for any words that are 4 characters long and end with a character 'a'.
-[Try it out](https://yanabrex.github.io/guess-the-build/)
+
+[Try it out by clicking this link!](https://yanabrex.github.io/guess-the-build/)
 
 ## How to Use
 
