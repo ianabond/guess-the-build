@@ -21,7 +21,7 @@ Here is an example of typing in "..o." which is a 4 character word with only one
 
 Here is a link to try out, it is not case-sensitive and still returns the same matches if either lowrcase or uppercase characters were entered. The wildcard characters in this program are considered to be non-letter characters, for example '.', ',', '?'. Additionally, the program accepts numbers as a shortcut to avoid typing in too many wildcard characters. For example, typing in "3a" treats the character '3' as a wildcard multiplied by 3, so it searches for any words that are 4 characters long and end with a character 'a'.
 
-[Try it out by clicking this link!](https://yanabrex.github.io/guess-the-build/)
+[Try it out by clicking this link!](https://ianabond.github.io/guess-the-build/)
 
 ## How to Use
 
