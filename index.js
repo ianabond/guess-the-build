@@ -1,4 +1,8 @@
+const year = (new Date()).getFullYear();
+const yearEl = document.querySelector("#year");
 let WORDS;
+
+yearEl.textContent = `${year}`;
 
 fetch("words.txt")
     .then(res => res.text())
@@ -43,4 +47,4 @@ inputBox.addEventListener("input", () => {
     hint = inputBox.value;
     matches = solveHint(hint);
     themes.innerText = matches.join("\n");
-})
+});
